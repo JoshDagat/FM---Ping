@@ -9,6 +9,12 @@
     font-weight: 300;
     src: url(../fonts/LibreFranklin-Light.ttf);
 }
+
+@font-face {
+    font-family: "Libre Franklin";
+    font-style: italic;
+    src: url(../fonts/LibreFranklin-Italic.ttf);
+}
 @font-face {
     font-family: "Libre Franklin";
     font-weight: 600;
@@ -41,7 +47,7 @@ header {
 }
 
 header .logo img {
-    max-width: 3.5rem;
+    max-width: calc(56px + 34 * ((100vw - 375px) / 1065));
 }
 
 main {
@@ -74,14 +80,26 @@ main .form {
     margin: 0 auto;
 }
 
+main .form .error-message {
+    font-size: calc(10px + 2 * ((100vw - 375px) / 1065));
+    font-style: italic;
+    color: #FF5466;
+    display: none;
+}
+
+main .form.error .error-message {
+    display: unset;
+    margin-bottom: 1.25rem;
+}
+
 main input {
-    padding: 0.625rem 2rem;
+    padding: 0.625em 2em;
     border: 1px solid #c2d3ff;
     box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.0001);
     border-radius: 28px;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.675rem;
 
-    font-size: calc(12px + 6 * ((100vw - 375px) / 1065));
+    font-size: calc(12px + 4 * ((100vw - 375px) / 1065));
 }
 
 main input::placeholder {
@@ -101,6 +119,10 @@ main .form button[type="submit"] {
     padding: 0.75rem;
     color: #fff;
     margin-bottom: 4.5rem;
+}
+
+main .form button[type="submit"]:hover{
+    background: #7196F5;
 }
 
 .img-div {
@@ -146,4 +168,54 @@ footer .copyright {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 551px) {
+    body {
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 701px ) {
+    body {
+        max-width: 600px;
+    }
+
+    main .form {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1em;
+        margin-bottom: 6.8rem;
+    }
+
+    main input {
+        margin-bottom: unset;
+        width: 100%;
+        padding: 1.125em 1.987em;
+    }
+    main .form button[type="submit"] {
+        margin-bottom: unset; 
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    header .logo img {
+        max-width: 90px;
+    }
+
+    main h2 {
+        font-size: 3rem;
+    }
+
+    main .subscribe-text {
+        font-size: 1.25rem
+    }
+
+    main input,
+    main .form button[type="submit"] {
+        font-size: 1rem;
+    }
+
 }
