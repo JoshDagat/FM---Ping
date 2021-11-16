@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     if(emailValue.value === '' || emailValue.value == null) {
-        errorMsg.textContent = "Email address is blank.";
+        errorMsg.textContent = "Whoops! It looks like you forgot to add your email.";
         showError();
         console.log(errorMsg.textContent);
     } else if (!checkEmail(emailValue.value)){

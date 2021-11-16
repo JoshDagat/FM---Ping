@@ -183,6 +183,7 @@ footer .copyright {
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    margin-bottom: 1em;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -229,6 +230,11 @@ footer .copyright {
 }
 
 @media screen and (min-width: 1400px) {
+
+
+    body {
+        max-width: 700px;
+    }
     header .logo img {
         max-width: 90px;
     }
