@@ -36,11 +36,12 @@ Users should be able to:
 ![Desktop - Invalid Email](assets/img/ping-desktop-invalid.png)
 
 #### Mobile View
-![mobile - Normal](assets/img/ping-mobile-normal.png)
 
-![mobile - Blank Email](assets/img/ping-mobile-blank.png)
+<img align="left" width="351" height="800" src="assets/img/ping-mobile-normal.png">
 
-![mobile - Invalid Email](assets/img/ping-mobile-invalid.png)
+<img align="left" width="351" height="800" src="assets/img/ping-mobile-blank.png">
+
+<img align="left" width="351" height="800" src="assets/img/ping-mobile-invalid.png">
 
 ### Links
 
