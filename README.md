@@ -41,7 +41,7 @@ Users should be able to:
 
 <img align="left" width="351" height="800" src="assets/img/ping-mobile-blank.png">
 
-<img align="left" width="351" height="800" src="assets/img/ping-mobile-invalid.png">
+<img align="left" width="351" height="800" src="assets/img/ping-mobile-invalid.png"><br>
 
 ### Links
 
