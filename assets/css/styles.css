@@ -78,6 +78,7 @@ main .form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    position: relative;
 }
 
 main .form .error-message {
@@ -85,6 +86,10 @@ main .form .error-message {
     font-style: italic;
     color: #FF5466;
     display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
 }
 
 main .form.error .error-message {
@@ -104,6 +109,11 @@ main input {
 
 main input::placeholder {
     color: #B8C7ED;
+}
+
+main form.error input {
+    border: 1px solid #FF5466;
+    margin-bottom: 3em;
 }
 
 main .form button[type="submit"] {
@@ -151,8 +161,16 @@ footer .social-media-links a {
     border-radius: 100%;
 }
 
+footer .social-media-links a:hover {
+    background: #4C7BF3;
+}
+
 footer i {
     color: #4C7BF3;
+}
+
+footer a:hover i {
+    color: #fff;
 }
 
 footer .copyright {
@@ -192,6 +210,16 @@ footer .copyright {
         margin-bottom: unset;
         width: 100%;
         padding: 1.125em 1.987em;
+    }
+
+    main .form.error input {
+        margin-bottom: unset;
+    }
+
+    main .form.error .error-message {
+        top: 60px;
+        left: 30px;
+        right: unset;
     }
     main .form button[type="submit"] {
         margin-bottom: unset; 
