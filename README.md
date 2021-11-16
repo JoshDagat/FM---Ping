@@ -37,11 +37,11 @@ Users should be able to:
 
 #### Mobile View
 
-<img align="left" width="351" height="800" src="assets/img/ping-mobile-normal.png">
+<img  width="351" height="800" src="assets/img/ping-mobile-normal.png">
 
-<img align="left" width="351" height="800" src="assets/img/ping-mobile-blank.png">
+<img  width="351" height="800" src="assets/img/ping-mobile-blank.png">
 
-<img align="left" width="351" height="800" src="assets/img/ping-mobile-invalid.png"><br>
+<img  width="351" height="800" src="assets/img/ping-mobile-invalid.png"><br>
 
 ### Links
 
