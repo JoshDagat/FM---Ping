@@ -14,7 +14,6 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -82,3 +81,7 @@ I'll look into learning PHP then use that for server-side validation.
 [Email Validation - Stack Overflow](https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript)
 
 [Input MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+## Author 
+- LinkedIn - [Josuer](https://www.linkedin.com/in/josuer-bague/)
+- Frontend Mentor - [FM Josuer Bague](https://www.frontendmentor.io/profile/JoshDagat)
